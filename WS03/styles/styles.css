@@ -14,7 +14,6 @@ body {
   .dot {
     border-color: white;
     border-style: dotted;
-    border-style: 2px;
     width: 100px;
     height: 100px;
   }
