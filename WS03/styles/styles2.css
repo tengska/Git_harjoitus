@@ -49,3 +49,14 @@ body {
   li{
     margin: auto;
   }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
