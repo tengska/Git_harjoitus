@@ -26,6 +26,7 @@ body {
     border-radius: 30px;
     border-style: hidden;
     font-size: 20px;
+    padding: 10px
   }
   .dot {
     border-color: white;
