@@ -53,6 +53,7 @@ body {
     color: #2f4d52;
     list-style-type: circle;
     margin: auto;
+    text-align: center;
   }
   ol {
     list-style-type: upper-alpha;
