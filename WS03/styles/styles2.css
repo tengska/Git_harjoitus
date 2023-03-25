@@ -1,7 +1,6 @@
 body {
     background-color: #2f4d52;
     color: #2f4d52;
-    text-align: center;
   }
   h1 {
     background-color: #fff875;
@@ -51,8 +50,7 @@ body {
     color: #2f4d52;
     text-align: center;
     list-style-type: circle;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
   ol {
     list-style-type: upper-alpha;
