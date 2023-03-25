@@ -17,7 +17,7 @@ body {
     text-transform: uppercase;
     border-style: hidden;
     border-radius: 30px 30px 0px 0px;
-    padding: 10px;
+    padding: 20px;
   }
   p {
     background-color: #5cd6c2;
@@ -27,7 +27,8 @@ body {
     border-radius: 30px;
     border-style: hidden;
     font-size: 20px;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 10px
   }
   .dot {
