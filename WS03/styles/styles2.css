@@ -54,7 +54,7 @@ body {
   }
   ul {
     color: #2f4d52;
-    font
+    font-family: 'Uniform rounded extracondensed', sans-serif;
     list-style-type: circle;
     margin: auto;
     display: inline-block;
