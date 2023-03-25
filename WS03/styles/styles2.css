@@ -5,6 +5,7 @@ body {
   h1 {
     background-color: #fff875;
     color: #2f4d52;
+    width: 70%;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 15px;
@@ -59,11 +60,6 @@ body {
     margin-right: auto;
   }
   figure {
-    display: block;
     margin-left: auto;
     margin-right: auto;
   }
-figcaption {
-    margin-left: auto;
-    margin-right: auto;
-}
