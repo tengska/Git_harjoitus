@@ -4,6 +4,8 @@ body {
   }
   h1 {
     background-color: #fff875;
+    color: #2f4d52;
+    text-align: center;
     margin-top: 0px;
     margin-bottom: 15px;
     font-family: 'Uniform rounded extracondensed', sans-serif;
@@ -12,6 +14,8 @@ body {
     font-weight: 700;
     letter-spacing: -0.5px;
     text-transform: uppercase;
+    border-style: hidden;
+    border-radius: 30px;
   }
   p {
     background-color: #5cd6c2;
@@ -29,14 +33,19 @@ body {
   }
   .loota {
     background-color: antiquewhite;
+    width: 70%;
     align-items: center;
     -webkit-box-align: stretch;
     border-radius: 30px;
     box-shadow: 8px 13px 30px 0 rgba(47, 77, 82, 0.25);
+    margin: auto;
   }
   ul {
     list-style-type: circle;
   }
   ol {
     list-style-type: upper-alpha;
+  }
+  li{
+    margin: auto;
   }
