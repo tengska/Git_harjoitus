@@ -79,3 +79,8 @@ body {
   figcaption {
     text-align: center;
   }
+  progress {
+    font-family: 'ui-rounded', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
