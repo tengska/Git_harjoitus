@@ -46,7 +46,6 @@ body {
     box-shadow: 8px 13px 30px 0 rgba(47, 77, 82, 0.25);
     margin: auto;
     padding: 0px 50px 50px 50px;
-    box-sizing: border-box;
   }
   ul {
     color: #2f4d52;
