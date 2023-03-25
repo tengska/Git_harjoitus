@@ -62,3 +62,6 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+progress {
+    color: #2f4d52;
+}
