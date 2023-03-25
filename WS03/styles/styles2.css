@@ -1,0 +1,32 @@
+body {
+    background-color: #2f4d52;
+    color: lightgray;
+  }
+  h1 {
+    background-color: #fff875;
+    color: #2f4d52;
+    font-family: 'Uniform rounded', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+  p {
+    background-color: #5cd6c2;
+    color: #2f4d52;
+    font-family: 'Uniform rounded', sans-serif;
+    font-size: 12px;
+  }
+  .dot {
+    border-color: white;
+    border-style: dotted;
+    border-width: 2px;
+    width: 100px;
+    height: 100px;
+  }
+  ul {
+    list-style-type: circle;
+    text-align: center;
+  }
+  ol {
+    list-style-type: upper-alpha;
+  }
