@@ -23,7 +23,9 @@ body {
     color: #2f4d52;
     font-family: 'ui-rounded', sans-serif;
     text-align: center;
-    font-size: 12px;
+    border-radius: 30px;
+    border-style: hidden;
+    font-size: 20px;
   }
   .dot {
     border-color: white;
@@ -41,6 +43,7 @@ body {
     box-shadow: 8px 13px 30px 0 rgba(47, 77, 82, 0.25);
     margin: auto;
     padding: 0px 50px 50px 50px;
+    box-sizing: border-box;
   }
   ul {
     color: #2f4d52;
@@ -62,5 +65,8 @@ body {
   figure {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+  figcaption {
     text-align: center;
   }
