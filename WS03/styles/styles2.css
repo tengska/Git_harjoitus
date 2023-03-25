@@ -96,18 +96,18 @@ body {
     } 
     .button {
         border: none;
-        padding: 16px 32px;
+        padding: 8px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        margin: 4px 2px;
+        margin: 4px 20px;
         transition-duration: 0.4s;
         cursor: pointer;
+        border-radius: 10px
       }
     .button1 {
     background-color: #fff875; 
-    border-radius: 20px
     }
      a {
     color: #5cd6c2;
