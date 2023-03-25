@@ -15,7 +15,7 @@ body {
     letter-spacing: -0.5px;
     text-transform: uppercase;
     border-style: hidden;
-    border-radius: 30px 30px 100px 100px;
+    border-radius: 30px 30px 0px 0px;
   }
   p {
     background-color: #5cd6c2;
@@ -32,13 +32,14 @@ body {
     height: 100px;
   }
   .loota {
-    background-color: antiquewhite;
+    background-color: white;
     width: 70%;
     align-items: center;
     -webkit-box-align: stretch;
     border-radius: 30px;
     box-shadow: 8px 13px 30px 0 rgba(47, 77, 82, 0.25);
     margin: auto;
+    padding: 50px;
   }
   ul {
     color: #2f4d52;
@@ -62,6 +63,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-progress {
-    color: #2f4d52;
+figcaption {
+    margin-left: auto;
+    margin-right: auto;
 }
