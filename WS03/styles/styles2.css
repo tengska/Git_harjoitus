@@ -58,6 +58,10 @@ body {
   .kuvat {
     margin: 10px;
   }
+  .lista {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   ul {
     color: #2f4d52;
     font-family: 'Uniform rounded extracondensed', sans-serif;
