@@ -1,6 +1,9 @@
 body {
     background-color: #2f4d52;
     color: #2f4d52;
+    font-family: 'ui-rounded', sans-serif;
+    font-size: 15px;
+    align-items: center;
   }
   h1 {
     background-color: #fff875;
@@ -51,6 +54,7 @@ body {
   }
   ul {
     color: #2f4d52;
+    font
     list-style-type: circle;
     margin: auto;
     text-align: center;
