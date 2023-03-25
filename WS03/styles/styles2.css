@@ -57,7 +57,8 @@ body {
     font
     list-style-type: circle;
     margin: auto;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
   }
   ol {
     list-style-type: upper-alpha;
