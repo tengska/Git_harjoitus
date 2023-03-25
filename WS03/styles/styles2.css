@@ -93,4 +93,16 @@ body {
     font-family: 'ui-rounded', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-} 
+    } 
+    .button1 {
+    background-color: #fff875; 
+    border-radius: 20px
+    }
+     a {
+    color: #5cd6c2;
+    font-family: 'ui-rounded', sans-serif;
+      font-weight: bold;
+    }
+    .button1:hover {
+      background-color: #2f4d52;
+    }
