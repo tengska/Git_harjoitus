@@ -72,6 +72,8 @@ body {
     margin-right: auto;
     max-width: 100%;
     height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   figure {
     margin-left: auto;
@@ -79,6 +81,8 @@ body {
     text-align: center;
     max-width: 100%;
     height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   figcaption {
     text-align: center;
