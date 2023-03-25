@@ -61,7 +61,6 @@ body {
   ul {
     color: #2f4d52;
     font-family: 'Uniform rounded extracondensed', sans-serif;
-    text-transform: capitalize;
     list-style-type: circle;
     margin: auto;
     display: inline-block;
