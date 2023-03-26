@@ -74,7 +74,7 @@ body {
   li{
     color: #2f4d52;
   }
-  img {
+  .kuvastyle {
     text-align: center;
     max-width: 100%;
     height: auto;
