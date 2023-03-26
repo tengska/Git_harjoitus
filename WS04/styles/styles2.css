@@ -1,0 +1,120 @@
+body {
+    background-color: #2f4d52;
+    font-family: 'ui-rounded', sans-serif;
+    font-size: 18px;
+    align-items: center;
+  }
+  h1 {
+    background-color: #fff875;
+    color: #2f4d52;
+    width: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: 'Uniform rounded extracondensed', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    border-style: hidden;
+    border-radius: 30px 30px 0px 0px;
+    padding: 20px;
+  }
+  h2 {
+    background-color: #5cd6c2;
+    color: #2f4d52;
+    font-family: 'ui-rounded', sans-serif;
+    text-align: center;
+    border-radius: 30px;
+    border-style: hidden;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px
+  }
+  .dot {
+    border-color: white;
+    border-style: dotted;
+    border-width: 2px;
+    width: 100px;
+    height: 100px;
+  }
+  .loota {
+    background-color: white;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 8px 13px 30px 0 rgba(47, 77, 82, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0px 0px 70px 0px;
+  }
+  .kuvat {
+    margin: 10px;
+  }
+  .lista {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  ul {
+    color: #2f4d52;
+    font-family: 'Uniform rounded extracondensed', sans-serif;
+    list-style-type: circle;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+  }
+  ol {
+    list-style-type: upper-alpha;
+  }
+  li{
+    color: #2f4d52;
+  }
+  .kuvastyle {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  figure {
+    text-align: center;
+    margin: 0px;
+  }
+  figcaption {
+    text-align: center;
+  }
+  label {
+    color: #2f4d52;
+    font-family: 'ui-rounded', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  } 
+  .button {
+    border: none;
+    padding: 6px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+	color: #5cd6c2;
+    font-family: 'ui-rounded', sans-serif;
+    font-weight: bold;
+   }
+  .button1 {
+    background-color: #fff875; 
+   }
+   a {
+    font-family: 'ui-rounded', sans-serif;
+    font-weight: bold;
+   }
+  .button1:hover {
+    background-color: #2f4d52;
+   }
