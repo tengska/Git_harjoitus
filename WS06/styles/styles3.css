@@ -106,3 +106,7 @@
       margin-bottom: 50px;
       border-radius: 30px;
     }
+    .cssvalid li {
+        text-align: center;
+          list-style: none;
+         }
