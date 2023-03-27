@@ -115,3 +115,11 @@
     a:hover {
         color: red;
       }
+    .row {
+        display: flex;
+      }
+      
+    .column {
+        flex: 50%;
+        padding: 15px;
+      }
