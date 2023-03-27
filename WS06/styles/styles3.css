@@ -64,7 +64,7 @@
     border-radius: 0px 0px 30px 30px;
   }
   /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-  @media (max-width: 600px) {
+  @media (max-width: 1060px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
