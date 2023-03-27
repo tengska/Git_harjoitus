@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'ui-rounded', sans-serif;
+  font-size: 15px;
+}
+header {
+  background-color: #2f4d52;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: 'ui-rounded', sans-serif;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #2879;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav a {
+  padding: 0px 15px;
+  text-decoration: none;
+  color: #fff875;
+  font-family: 'ui-rounded', sans-serif;
+  font-weight: bold;
+  }
+nav a:hover {
+  color: red;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+footer {
+  background-color: #2f4d52;
+  padding: 10px;
+  text-align: center;
+  color: #fff875;
+  font-family: 'ui-rounded', sans-serif;
+  font-weight: bold;
+}
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+#nav1 {
+  list-style: none;
+  margin: 0 auto;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #2f4d52;
+  text-align: center;
+}
+#nav1 li {
+  display: inline;
+}
+#nav1 a {
+  text-align: center;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: #fff875;
+  font-family: 'ui-rounded', sans-serif;
+  font-weight: bold;
+}
+#nav1 a:hover {
+  color: red;
+}
+a {
+  text-decoration: none;
+  font-family: 'ui-rounded', sans-serif;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>WS06 Exercise</h2>
+</header>
+<ul id="nav1">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://github.com/tengska" target="_blank">Tengska Github</a></li>
+      <li><a href="https://www.instagram.com/tengska/?igshid=ZDdkNTZiNTM%3D" target="_blank">Tengska IG</a></li>
+      <li><a href="https://www.linkedin.com/in/tengska" target="_blank">Tengska LinkedIn</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Pääsivu</h1>
+        <p>Tämän sivun horisontaalinen navbar ei ollut helppo saada kasaan. Sain sen helposti sijoitettua vasempaan reunaan, mutta sen keskittäminen tuotti ongelmia - ilmeisesti sen vuoksi, että yritin käyttää display: block elementtiä.</p>
+    <p>Olen myös löytänyt itseni selailemasta värejä tuntikausia, vaikka tämän tehtävän ei täydy kenties olla vielä ns. masterpiece. Ulkoasullisesti tykkään enemmän aiemman tehtävän tuotoksestani, voit kurkata sen <a href="https://tengska.github.io/git_harjoitus/WS03/second.html" target="_blank">täältä</a>.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
