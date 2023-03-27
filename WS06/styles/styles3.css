@@ -30,14 +30,14 @@
     -ms-flex: 1;
     flex: 1;
     background: #2879;
-    padding: 20px;
+    padding: 15px;
   }
   nav ul {
     list-style-type: none;
     padding: 0;
+    margin: auto;
   }
   nav a {
-    padding: 0px 15px;
     text-decoration: none;
     color: #fff875;
     font-family: 'ui-rounded', sans-serif;
@@ -64,7 +64,7 @@
     border-radius: 0px 0px 30px 30px;
   }
   /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-  @media (max-width: 1060px) {
+  @media (max-width: 800px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
