@@ -96,6 +96,11 @@ footer {
   font-weight: bold;
   border-radius: 0px 0px 30px 30px;
 }
+footer p {
+  color: #fff875;
+  font-family: 'ui-rounded', sans-serif;
+  font-weight: bold;
+}
 .loota {
   background-color: white;
   width: 80%;
