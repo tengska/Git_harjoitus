@@ -4,16 +4,19 @@ body {
     font-size: 18px;
     align-items: center;
   }
+  header {
+    background-color: #2f4d52;
+    padding: 1px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'ui-rounded', sans-serif;
+    border-radius: 30px 30px 0px 0px;
   h1 {
-    background-color: #fff875;
-    color: #2f4d52;
     width: auto;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 15px;
     font-family: 'Uniform rounded extracondensed', sans-serif;
-    font-size: 30px;
-    line-height: 30px;
     font-weight: 700;
     letter-spacing: -0.5px;
     text-transform: uppercase;
@@ -118,3 +121,25 @@ body {
   .button1:hover {
     background-color: #2f4d52;
    }
+   #nav1 {
+    list-style: none;
+    margin: 0 auto;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #2f4d52;
+    text-align: center;
+  }
+  #nav1 li {
+    display: inline;
+  }
+  #nav1 a {
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #fff875;
+    font-family: 'ui-rounded', sans-serif;
+    font-weight: bold;
+  }
+  #nav1 a:hover {
+    color: red;
+  }
