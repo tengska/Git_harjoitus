@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300;500&display=swap');
+:root {
+    --bs-body-font-family: 'Varela Round', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Pangolin', cursive;
+  background-color: white;
+  font-size: 16px;
+}
+header {
+  background-color: #2f4d52;
+  padding: 1px;
+  text-align: center;
+  font-size: 60px;
+  color: #e7e5e5;
+  font-family: 'Shantell Sans', cursive;
+  border-radius: 30px 30px 0px 0px;
+}
+h2 {
+  color: #2f4d52;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+h1 {
+    color: #2f4d52;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+  }
+p {
+    color: #2f4d52;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 16px;
+    text-align: center;
+  }
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #2879;
+  padding: 15px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: auto;
+}
+nav a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: #2f4d52;
+  font-family: 'Shantell Sans', cursive;
+  font-weight: bold;
+}
+nav a:hover {
+  color: rgb(255, 123, 0);
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #e7e5e5;
+  padding: 30px;
+  line-height: 20px;
+}
+footer {
+  background-color: #e7e5e5;
+  padding: 10px;
+  text-align: center;
+  color: #2f4d52;
+  font-family: 'Shantell Sans', cursive;
+  font-weight: bold;
+  border-radius: 0px 0px 30px 30px;
+}
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 800px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+#nav1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #e7e5e5;
+  text-align: right;
+  border-radius: 30px 30px 0px 0px;
+}
+#nav1 li {
+  display: inline;
+}
+#nav1 a {
+  text-align: center;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: #2f4d52;
+  font-family: 'Shantell Sans', cursive;
+  font-weight: bold;
+}
+#nav1 a:hover {
+  color: rgb(255, 103, 2);
+}
+a {
+  text-decoration: none;
+  font-family: 'Shantell Sans', cursive;
+  font-weight: bold;
+  color: #2f4d52;
+}
+.loota {
+  background-color: #e7e5e5;
+  width: 80%;
+  min-height: 800px;
+  box-shadow: 8px 13px 30px 0 rgba(47, 77, 82, 0.25);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  padding: 30px;
+}
+.cssvalid li {
+  text-align: center;
+  list-style: none;
+}
+a:hover {
+  color: rgb(255, 103, 2);
+}
+.row {
+    color: #2f4d52;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+    vertical-align: bottom;
+  }
+  div.c {
+    text-align: right;
+  } 
+  div.a {
+    text-align: center;
+  }
