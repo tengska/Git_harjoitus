@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300;500&display=swap');
+
 :root {
-    --bs-body-font-family: 'Varela Round', sans-serif;
+    --bs-body-font-family: 'Shantell Sans', cursive;
 }
 
 * {
   box-sizing: border-box;
 }
 body {
-    font-family: 'Pangolin', cursive;
+  font-family: 'Shantell Sans', cursive;
   background-color: white;
   font-size: 16px;
 }
@@ -59,23 +60,8 @@ nav {
   background: #2879;
   padding: 15px;
 }
-nav ul {
-  list-style-type: none;
-  padding: 10px;
-  margin: auto;
-}
-nav a {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  text-decoration: none;
-  color: #2f4d52;
-  font-family: 'Shantell Sans', cursive;
-  font-weight: bold;
-}
-nav a:hover {
-  color: rgb(255, 123, 0);
-}
+
+
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
@@ -183,7 +169,6 @@ a:hover {
   .gallery-image img {
     height: auto;
     width: 350px;
-    
     transform: scale(1.0);
     transition: transform 0.4s ease;
   }
