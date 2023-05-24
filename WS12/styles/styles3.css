@@ -192,6 +192,7 @@ a:hover {
     margin: 10px;
     height: 250px;
     width: 350px;
+    transform: scale(1.0);
     overflow: hidden;
     display: inline-block;
     color: white;
