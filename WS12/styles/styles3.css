@@ -40,7 +40,7 @@ h1 {
     color: #b8bfc0;
     font-family: 'Shantell Sans', cursive;
     font-size: 16px;
-    text-align: center;
+ 
   }
 p {
     color: #2f4d52;
@@ -181,8 +181,9 @@ a:hover {
   }
   
   .gallery-image img {
-    height: 250px;
+    height: auto;
     width: 350px;
+    
     transform: scale(1.0);
     transition: transform 0.4s ease;
   }
@@ -191,7 +192,8 @@ a:hover {
     box-sizing: content-box;
     margin: 10px;
     height: 250px;
-    width: 350px;
+    width: 350px;    
+    border-radius: 30px;
     transform: scale(1.0);
     overflow: hidden;
     display: inline-block;
