@@ -279,6 +279,13 @@ input[type="submit"]:hover {
   margin: auto;
 }
 
+.col-75 {
+  width: 75%;
+  margin-top: 6px;
+  margin: auto;
+  border-radius: 30px;
+  transform: scale(1);
+}
 /* Clear floats after the columns */
 .row::after {
   content: "";
